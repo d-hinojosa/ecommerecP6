@@ -12,9 +12,9 @@ This project is an e-commerce website centered around gold jewelry. It contains 
 4. Wonderlust should now be available on your phone.
 ## Preview of Application
 ### App Icon 
-<img src="../src/Assets/Img/logohs.png"  width="400"/>
+<img src="./client/src/Assets/Img/logohs.png"  width="400"/>
 ### App Home Screen
-<img src="../src/Assets/Img/homescreenpwa.png"  width="400"/>
+<img src="./client/src/Assets/Img/homescreenpwa.png"  width="400"/>
 ## Audit
 | Pre-Audit       | Post-Audit           | 
 | ------------- |:-------------:| 
