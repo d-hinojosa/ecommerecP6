@@ -11,14 +11,21 @@ This project is an e-commerce website centered around gold jewelry. It contains 
 3. Scroll to the right until you see `Add to Home Screen` and tap on it.
 4. Wonderlust should now be available on your phone.
 ## Preview of Application
+
 ### App Icon 
-<img src="./client/src/Assets/Img/logohs.png"  width="400"/>
+
+<img src="client/src/Assets/Img/logohs.png"  width="400"/>
+
 ### App Home Screen
-<img src="./client/src/Assets/Img/homescreenpwa.png"  width="400"/>
+
+<img src="client/src/Assets/Img/homescreenpwa.png"  width="400"/>
+
 ## Audit
+
 | Pre-Audit       | Post-Audit           | 
 | ------------- |:-------------:| 
 | ![](work/audit/pre-audit.png)      | ![](work/audit/Postaudit.png) | 
+
 ### Built With
 * [React](https://reactjs.org/docs/getting-started.html) - JavaScript library for building user interfaces
 * [Express](https://expressjs.com/) - Server framework for Node.js
