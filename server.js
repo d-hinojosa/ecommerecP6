@@ -25,6 +25,7 @@ mongoose.connect(
 		console.log(err || "Connected to MongoDB");
 	}
 );
+
 app.use((req, res, next) => {
 	// The 'x-forwarded-proto' check is for Heroku
 	if (
