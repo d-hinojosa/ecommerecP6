@@ -25,14 +25,6 @@ mongoose.connect(
 		console.log(err || "Connected to MongoDB");
 	}
 );
-
-if (process.env.NODE_ENV === "production") {
-	app.use((req, res, next) => {
-	  if (req.header("x-forwarded-proto") !== "https")
-		res.redirect(`https://${req.header("host")}${req.url}`);
-	  else next();
-	});
-  };
   app.use((req, res, next) => {
 	// The 'x-forwarded-proto' check is for Heroku
 	if (!req.secure && req.get('x-forwarded-proto') !== 'https' && process.env.NODE_ENV === "production") {
