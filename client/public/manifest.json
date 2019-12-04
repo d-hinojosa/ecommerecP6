@@ -17,6 +17,11 @@
             "sizes": "512x512"
         }
     ],
+    "apple-touch-icon": [{
+        "src": "../src/Assets/Img/rings.png",
+        "sizes": "180x180",
+        "type": "image/png"
+    }],
     "start_url": "https://wonderlustpwa.herokuapp.com/",
     "display": "standalone",
     "theme_color": "#000000",
