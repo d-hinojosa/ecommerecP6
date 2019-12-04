@@ -1,24 +1,24 @@
 {
     "short_name": "Wonderlust",
-    "name": "Create React App Sample",
+    "name": "Wonderlust",
     "icons": [{
-            "src": "favicon.ico",
+            "src": "rings.png",
             "sizes": "64x64 32x32 24x24 16x16",
             "type": "image/x-icon"
         },
         {
-            "src": "logo192.png",
+            "src": "rings.png",
             "type": "image/png",
             "sizes": "192x192"
         },
         {
-            "src": "logo512.png",
+            "src": "rings.png",
             "type": "image/png",
             "sizes": "512x512"
         }
     ],
     "apple-touch-icon": [{
-        "src": "../src/Assets/Img/rings.png",
+        "src": "rings.png",
         "sizes": "180x180",
         "type": "image/png"
     }],
