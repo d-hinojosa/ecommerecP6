@@ -33,7 +33,14 @@ if (process.env.NODE_ENV === "production") {
 	  else next();
 	});
   };
-  
+  app.use((req, res, next) => {
+	// The 'x-forwarded-proto' check is for Heroku
+	if (!req.secure && req.get('x-forwarded-proto') !== 'https' && process.env.NODE_ENV === "production") {
+	  return res.redirect('https://' + req.get('host') + req.url);
+	}
+	next();
+  })
+
 app.use(express.static(`${__dirname}/Client/build`));
 app.use(logger("dev"));
 app.use(express.json());
