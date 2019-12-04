@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/static/css/main.547bde9a.chunk.css",
+    "main.js": "/static/js/main.086280d5.chunk.js",
+    "main.js.map": "/static/js/main.086280d5.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.89827235.js",
+    "runtime-main.js.map": "/static/js/runtime-main.89827235.js.map",
+    "static/js/2.704de713.chunk.js": "/static/js/2.704de713.chunk.js",
+    "static/js/2.704de713.chunk.js.map": "/static/js/2.704de713.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.102d1e19dc4f145a35744b09ad2ba5b1.js": "/precache-manifest.102d1e19dc4f145a35744b09ad2ba5b1.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.547bde9a.chunk.css.map": "/static/css/main.547bde9a.chunk.css.map",
+    "static/media/lightgold.jpg": "/static/media/lightgold.6da9099d.jpg",
+    "static/media/rings.png": "/static/media/rings.9b602ca6.png"
+  }
+}
