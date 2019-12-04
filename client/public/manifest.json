@@ -13,7 +13,7 @@
         }
     ],
     "apple-touch-icon": [{
-        "src": "/logo/logo_192.png",
+        "src": "/logo/rings_192.png",
         "sizes": "192x192",
         "type": "image/png"
     }],
