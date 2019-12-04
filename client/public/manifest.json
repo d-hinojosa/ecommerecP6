@@ -2,12 +2,12 @@
     "short_name": "Wonderlust",
     "name": "Wonderlust",
     "icons": [{
-            "src": "/logo/logo_192.png",
+            "src": "/logo/rings_192.png",
             "type": "image/png",
             "sizes": "192x192"
         },
         {
-            "src": "/logo/logo512.png",
+            "src": "/logo/rings512.png",
             "type": "image/png",
             "sizes": "512x512"
         }
